@@ -169,3 +169,70 @@
     align-items: center;
     gap: 20px;
 }
+
+.second-container{
+    width: 2000px;
+    height: 540px;
+}
+
+.title-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 845px;
+    opacity: 1;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.card-container{
+    width: 1095px;
+    height: 204px;
+    top: 162px;
+    left: 553px;
+    opacity: 1;
+}
+.card{
+    width: 240;
+    height: 204;
+    top: 162px;
+    left: 1408px;
+    opacity: 1;
+}
+
+.card-img{
+    width: 50px;
+    height: 50px;
+    top: 162px;
+    left: 1408px;
+    opacity: 1;
+}
+
+.bold-text{
+    width: 192px;
+    height: 33px;
+    opacity: 1;
+    font-family:"Poppins",sans-serif;
+    font-weight: 800px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #22343D;
+}
+
+.p-text{
+    width: 240px;
+    height: 78px;
+    top: 46px;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #22343D;
+}
