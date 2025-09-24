@@ -14,18 +14,19 @@
 
 // Output: 364.09000000000003
 
+function calculeazaSuma(lista) {
+  let suma = 0;
+  for (let i = 0; i < lista.length; i++) {
+    suma += lista[i];
+  }
+  return suma;
+}
+
 let numbers1 = [1, -5, 20, -34, 16, 29, 36, -4];
 let numbers2 = [3.45, -2.68, 356, -75.96, 64, 19.28];
 
-let sum1 = 0;
-let sum2 = 0;
-
-for (let i = 0; i < numbers1.length; i++) {
-  sum1 = sum1 + numbers1[i];
-}
-
-for (let i = 0; i < numbers2.length; i++) {
-  sum2 = sum2 + numbers2[i];
-}
+let sum1 = calculeazaSuma(numbers1);
+let sum2 = calculeazaSuma(numbers2);
 
 console.log("Suma listei 1 este:", sum1, " | Suma listei 2 este:", sum2);
+
