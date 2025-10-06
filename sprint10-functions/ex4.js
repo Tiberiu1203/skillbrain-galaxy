@@ -18,9 +18,9 @@
 // const addNumber = (…argumente) ⇒ {}
 
 const addNumber = (...argumente) => {
-    return argumente.reduce((sum, num) => sum + num, 0);
+    return argumente.reduce((suma, numere) => suma + numere, 0);
 }
 
-console.log(addNumber(1, 2, 3));
-console.log(addNumber(1, 2, 3, 4, 5)); 
-console.log(addNumber(10, 20, 30, 40)); 
+console.log("Suma numerelor este: ", addNumber(1, 2, 3));
+console.log("Suma numerelor este: ", addNumber(1, 2, 3, 4, 5)); 
+console.log("Suma numerelor este: ", addNumber(10, 20, 30, 40)); 

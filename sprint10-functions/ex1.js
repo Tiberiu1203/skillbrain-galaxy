@@ -24,6 +24,6 @@ function findSquare(num) {
     return num * num; 
 }
 
-console.log(findSquare(listaNumere[0])); // 36
-console.log(findSquare(listaNumere[1])); // 0
-console.log(findSquare(listaNumere[2])); // 144
+console.log(findSquare(listaNumere[0])); 
+console.log(findSquare(listaNumere[1]));
+console.log(findSquare(listaNumere[2]));
